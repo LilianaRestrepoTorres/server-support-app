@@ -2,8 +2,10 @@ from flask import Flask, request, jsonify
 from uuid import uuid4
 from openai_utils import ai_extract_ticket_info
 from storage_utils import write_ticket_to_file, read_ticket_from_file, update_ticket_status, get_all_tickets
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Endpoint to report a problem
 @app.route('/report', methods=['POST'])
