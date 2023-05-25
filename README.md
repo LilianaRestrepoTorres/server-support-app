@@ -47,7 +47,10 @@ Now you should be able to access the application at `http://localhost:5000/`
 
 
 
-https://github.com/LilianaRestrepoTorres/server-support-app/assets/17114826/56e08199-f6d5-4aab-aa9a-687357b473a5
+
+https://github.com/LilianaRestrepoTorres/server-support-app/assets/17114826/fbae7e69-c4c2-4495-adaa-bdb49fccb073
+
+
 
 
 ## Key Features
